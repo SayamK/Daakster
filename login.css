@@ -1,0 +1,94 @@
+body {
+	background: #eee;
+    font-family: 'Lato',sans-serif;
+}
+
+.login {
+	background: #fff;
+	width: 400px;
+	padding-bottom: 50px;
+	margin-top: 80px;
+	display: inline-block;
+}
+
+.strip-login {
+	background: #626BA3;
+	width: 100%;
+	padding-bottom: 1px;
+}
+
+.strip-login h1 {
+	color: #fff;
+	font-weight: 100;
+	margin-top: 8%;
+}
+
+.strip-login h1 span {
+		font-weight: 400;
+}
+
+input[type="email"] {
+	border: none;
+	border-bottom: 2px solid rgba(136,136,136,0.6);
+	width: 300px;
+	outline: none;
+	font-size: 18px;
+	background: none;
+	padding: 15px;
+	padding-left: 0;
+	font-weight: 300;
+	font-family: 'Lato',sans-serif;
+	transition: all .4s ease;
+}
+
+input[type="email"]:focus,input[type="password"]:focus {
+	border-bottom: 2px solid rgba(136,136,136,1);
+	transition: all .4s ease;
+}
+
+input[type="password"] {
+	border: none;
+	border-bottom: 2px solid rgba(136,136,136,0.6);
+	width: 300px;
+	background: none;
+	outline: none;
+	font-size: 18px;
+	padding: 15px;
+	padding-left: 0;
+	font-weight: 300;
+	font-family: 'Lato',sans-serif;
+	transition: all .4s ease;
+}
+
+label {
+	color: #222;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.login-submit {
+	background: #626BA3;
+	border: none;
+	font-family: 'Lato',sans-serif;
+	cursor: pointer;
+	color: #fff;
+	padding: 15px;
+	width: 100px;
+	margin-top: 20px;
+	float: right;
+	position: relative;
+	right: 16%;
+	outline: none;
+	transition: all .4s ease;
+}
+
+
+.login-submit:hover {
+   background: #545a92;
+   transition: all .4s ease;
+}
+
+.logo {
+	width: 10%;
+	margin-top: 80px;
+}

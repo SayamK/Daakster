@@ -1,0 +1,237 @@
+*{
+transition: all .4s ease;
+}
+
+body,html {
+  margin: 0;
+  font-family: 'Titillium Web',sans-serif;
+}
+
+header {
+  background: #6169a5;
+}
+
+header img {
+  width: 6%;
+  margin: 2%;
+  float: left;
+  margin-left: 5%;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #fff;
+  /*float: right;*/
+  margin-right: 20%;
+  margin-top: 3%;
+  font-weight: 200;
+  display: inline-block;
+}
+.clear {
+  clear: both;
+}
+
+header .icons {
+  float: right;
+  margin-top: -5.8%;
+  display: inline-block;
+  font-size: 1.3em;
+  margin-right: 7%;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fa-search, .fa-ellipsis-v {
+  padding: 1em;
+  /*background: #000;*/
+  display: inline-block;
+}
+
+.fa-search {
+  margin-right: 8%;
+  border-radius: 50%;
+}
+
+.fa-ellipsis-v {
+  padding: 1em;
+  margin-right: -15%;
+  display: inline-block;
+  padding-right: 1.37em;
+  padding-left: 1.37em;
+  border-radius: 50%;
+}
+
+.fa-search:hover {
+  background: #575e95;
+}
+.fa-ellipsis-v:hover {
+  background: #575e95;
+}
+
+/*.fa-search {
+  margin-right: 2%;
+}*/
+
+/*.fa-ellipsis-v {
+  margin-right: 10%;
+}*/
+
+.mails {
+  width: 70%;
+}
+
+.mail {
+  background: #eee;
+  margin-top: 2%;
+  overflow: hidden;
+}
+
+.mail-logo {
+  background: #575e95;
+  /*padding-right: 7%;
+  width: 1%;*/
+  width: 10%;
+  float:left;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  /*float: left;*/
+}
+
+.mail-logo h3{
+  color: #fff;
+  font-weight: 200;
+  flex: 1;
+  justify-content: center;
+  /*padding: 4%;*/
+  text-transform: uppercase;
+}
+
+.mail p {
+  font-size: 1.5em;
+  margin-top: 3%;
+  float: left;
+  margin-left: 5%;
+}
+
+.side-menu {
+  background: #fff;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 20%;
+  float: right;
+  position: fixed;
+  top: 0;
+  right: -20%;
+  transition: all 1s ease;
+}
+
+.side-menu h1 {
+  color: #333;
+  margin-top: 15%;
+  text-transform: uppercase;
+}
+
+.side-menu hr {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 70%;
+  margin-top: 15%;
+}
+
+.side-menu .links a{
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  margin-top: 2%;
+  font-size: 20px;
+  text-align: left;
+  margin-left:3.5em;
+}
+
+.side-menu .close {
+  float: right;
+  margin: 5%;
+  font-size: 2em;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.side-menu .links a:hover {
+  background: #6169a5;
+  color: #fff;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: -100%;
+  left: 0;
+  height: 100%;
+  transition: all 0.7s ease;
+  width: 100%;
+}
+
+.search-bar {
+  border: none;
+  border-bottom: 3px solid rgba(255,255,255,0.4);
+  outline:none;
+  color: #eee;
+  width: 40%;
+  margin-top: 10%;
+  background: none;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.search-bar:focus {
+  border-bottom: 3px solid rgba(255,255,255,0.8);
+}
+
+.close2 {
+  color: #fff;
+  font-size: 3em;
+  float: right;
+  margin:2%;
+  cursor: pointer;
+}
+
+.message-window {
+  width: 70%;
+}
+
+.top {
+  width: 80%;
+  /*border-bottom: 2px solid #222;*/
+}
+
+.user-icon {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #6169a5;
+  float: left;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+
+.user-icon h3 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 200;
+}
+
+.top h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 300;
+  margin-top: 6%;
+  float: left;
+  margin-left: 5%;
+}
+
+.message-window hr {
+  width: 80%;
+}

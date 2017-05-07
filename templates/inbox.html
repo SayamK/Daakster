@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-16">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+  <!-- <script type="text/javascript" {{ url_for('static', filename='app.js')}}></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/app.css" media="screen" title="no title">
+    <!-- <script type="text/javascript">
+      var lol = '{{ results[0] }}';
+      console.log(lol);
+    </script> -->
+    <script src="../static/app.js" charset="utf-8"></script>
+    <script>
+    function isAlphaNumeric(str) {
+    var code, i, len;
+
+    for (i = 0, len = str.length; i < len; i++) {
+    code = str.charCodeAt(i);
+    if (!(code > 47 && code < 58) && // numeric (0-9)
+        !(code > 64 && code < 91) && // upper alpha (A-Z)
+        !(code > 96 && code < 123)) { // lower alpha (a-z)
+      return false;
+    }
+  }
+  return true;
+};
+    //   var xx = {{name|safe}};
+    //   console.log(xx);
+
+      
+    //   	var nameStr = xx;
+    // var res = nameStr.split("u");
+    // console.log(res);
+     
+    </script>
+    <title>Daakster</title>
+  </head>
+  <body>
+    <header>
+      <img src="../static/logo2.png" alt="logo" />
+      <center>
+      <h1>Inbox</h1>
+      </center>
+      <div class="icons">
+        <i onclick="openOverlay()" class="fa fa-search" aria-hidden="true"></i>
+        <i onclick="openSidePanel()" class="fa fa-ellipsis-v" aria-hidden="true"></i>
+      </div>
+      <div class="clear"></div>
+    </header>
+    <br>
+    <center>
+    <div class="mails" id="mails">
+ <!--    <a href="">
+      <div class="mail">
+        <div class="mail-logo">
+          <h3>sk</h3>
+        </div>
+        <p>Formal Order</p>
+      </div> -->
+      </a>
+
+<a style="{text-decoration:none;}" href="/mail"><div class="mail"><div class="mail-logo"><h3>sk</h3></div><p>{{subjects}}</p></div></a>
+ 
+    </div>
+  </center>
+  <div class="side-menu" id="side-menu">
+    <div class="close" onclick="closeSidePanel()">
+      <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+    </div>
+    <div class="clear">
+
+    </div>
+    <center>
+    <h1>Menu</h1>
+    <hr>
+    <br>
+    <div class="links">
+      <a href="inbox.html"><i class="fa fa-inbox" aria-hidden="true"></i> &nbsp; Inbox</a>
+      <a href="#.html"> <i class="fa fa-user" aria-hidden="true"></i> &nbsp; Dashboard</a>
+      <a href="#.html"> <i class="fa fa-sliders" aria-hidden="true"></i> &nbsp; Settings</a>
+    </div>
+  </center>
+  </div>
+  <div class="overlay" id="overlay">
+    <div class="close2" onclick="closeOverlay()">
+      <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <div class="clear"></div>
+    <center>
+   <form action="#" method="post">
+     <input class="search-bar" type="search" name="search" placeholder="Search your mails">
+   </form>
+ </center>
+  </div>
+  <script type="text/javascript">
+  // var container = document.getElementById('mails');
+  // for (var i = 0; i < 7; i++) {
+  //   container.innerHTML += '<div class="mail"><div class="mail-logo"><h3>sk</h3></div><p>lol</p></div>';
+  // }
+  </script>
+  </body>
+</html>
