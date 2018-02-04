@@ -1,0 +1,33 @@
+- Deep learning algorithm diagnoses skin cancer as well as seasoned
+<https://www.extremetech.com/extreme/243352-deep-learning-algorithm-diag=
+<https://www.geospatialworld.net/amazon-go-deep-learning-ai-retailing/>
+learning?=E2=80=9D Here=E2=80=99s a succinct description:
+<http://machinelearningmastery.com/what-is-deep-learning/>
+Online Deep Learning Courses
+Creative Applications of Deep Learning with TensorFlow
+<https://www.class-central.com/mooc/398/coursera-neural-networks-for-machin=
+e-learning>
+e-learning#reviews>
+Learn about artificial neural networks and how they=E2=80=99re being used f=
+e-learning#review-5164>):
+learning initiatives.=E2=80=9D*
+Geoffrey Hinton, the =E2=80=9Cgodfather of deep learning,=E2=80=9D who teac=
+e-learning>
+Practical Deep Learning For Coders, Part 1
+<https://www.class-central.com/mooc/7887/practical-deep-learning-for-coders=
+<https://www.class-central.com/mooc/7887/practical-deep-learning-for-coders=
+one =E2=80=94 learning how to get a GPU server online suitable for deep lea=
+<https://www.class-central.com/mooc/7887/practical-deep-learning-for-coders=
+6.S191: Introduction to Deep Learning
+6.S094: Deep Learning for Self-Driving Cars
+<https://www.class-central.com/mooc/8132/6-s094-deep-learning-for-self-driv=
+<https://www.class-central.com/mooc/8132/6-s094-deep-learning-for-self-driv=
+This class is an introduction to the practice of deep learning through the
+of deep learning methods and their application.
+Deep Learning
+<https://www.class-central.com/mooc/5681/udacity-deep-learning>
+<https://www.class-central.com/mooc/5681/udacity-deep-learning#reviews>)
+deep learning, and design intelligent systems that learn from complex
+these same problems effortlessly using deep learning methods.
+Deep Learning for Natural Language Processing
+<https://www.class-central.com/mooc/8097/deep-learning-for-natural-language=

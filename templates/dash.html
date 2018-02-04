@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+  <!-- <script type="text/javascript" {{ url_for('static', filename='app.js')}}></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/app.css" media="screen" title="no title">
+    <!-- <script type="text/javascript">
+      var lol = '{{ results[0] }}';
+      console.log(lol);
+    </script> -->
+    <title>Dashboard | Daakster</title>
+  </head>
+  <body>
+    <header>
+      <img src="../static/logo2.png" alt="logo" />
+      <center>
+      <h1>Dashboard</h1>
+      </center>
+      <div class="icons">
+        <i onclick="openOverlay()" class="fa fa-search" aria-hidden="true"></i>
+        <i onclick="openSidePanel()" class="fa fa-ellipsis-v" aria-hidden="true"></i>
+      </div>
+      <div class="clear"></div>
+    </header>
+    <br>
+    <center>
+    <div class="mails" id="mails">
+      <!-- <div class="mail">
+        <div class="mail-logo">
+          <h3>sk</h3>
+        </div>
+        <p>Subject</p>
+      </div> -->
+      <!-- {% for sub in subjects %}
+<div class="mail"><div class="mail-logo"><h3>sk</h3></div><p>{{sub}}</p></div>
+{%endfor%} -->
+    </div>
+  </center>
+  <div class="side-menu" id="side-menu">
+    <div class="close" onclick="closeSidePanel()">
+      <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+    </div>
+    <div class="clear">
+
+    </div>
+    <center>
+    <h1>Menu</h1>
+    <hr>
+    <br>
+    <div class="links">
+      <a href="inbox.html"><i class="fa fa-inbox" aria-hidden="true"></i> &nbsp; Inbox</a>
+      <a href="dash.html"> <i class="fa fa-user" aria-hidden="true"></i> &nbsp; Dashboard</a>
+      <a href="settings.html"> <i class="fa fa-sliders" aria-hidden="true"></i> &nbsp; Settings</a>
+    </div>
+  </center>
+  </div>
+  <div class="overlay" id="overlay">
+    <div class="close2" onclick="closeOverlay()">
+      <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <div class="clear"></div>
+    <center>
+   <form action="#" method="post">
+     <input class="search-bar" type="search" name="search" placeholder="Search your mails">
+   </form>
+ </center>
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
